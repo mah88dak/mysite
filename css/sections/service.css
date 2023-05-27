@@ -1,0 +1,15 @@
+.service .card {
+  transition: 0.5s !important;
+}
+.service .card:hover {
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+}
+.service .card i{
+  color: var(--primaryColor);
+  transition: 0.5s !important;
+
+}
+.service .card:hover i{
+  color: var(--whiteColor);
+}

@@ -1,0 +1,15 @@
+.last-news .btn-link {
+  color: var(--primaryColor) !important;
+  transition: 0.5s !important;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  padding: 0;
+
+}
+
+.last-news .btn-link:hover {
+  border-bottom: 1px solid;
+}
+
+
+

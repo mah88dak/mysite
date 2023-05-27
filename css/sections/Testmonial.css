@@ -1,0 +1,15 @@
+.testmonial .carousel-indicators [data-bs-target]{
+  height:  20px !important;
+  width:  20px !important;
+  border-radius: 50%;
+
+}
+.testmonial .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: var(--primaryColor);
+}
+
+@media (max-width : 992px) {
+  .testmonial .slider-container {
+    width: 100% !important;
+  }
+}

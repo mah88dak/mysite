@@ -1,0 +1,11 @@
+.skills .skill-bar {
+  margin-top: 1rem;
+  background-color: var(--block15Color);
+  height: 5px;
+}
+
+.skills .skill-bar .skill-level {
+  transition: 1s;
+  width: 0;
+  height: 100%;
+}

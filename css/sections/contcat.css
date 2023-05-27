@@ -1,0 +1,44 @@
+.contactMe input:focus ,.contactMe textarea:focus { 
+  box-shadow: 0 0 0px  5px rgba(255, 0, 0, 0.2) !important;
+  border-color:  rgba(255, 0, 0, 0.2) !important;
+}
+.contactMe .contact { 
+  position: relative;
+  z-index: 5;
+
+
+}
+.contactMe .item { 
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+
+
+}
+.contactMe i { 
+  color: var(--primaryColor);
+  border: 1px solid ;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  aspect-ratio: 1;
+
+}
+.contactMe iframe{
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+@media (max-width :992px) {
+  .contactMe iframe{
+    position: static;
+    margin-top: 50px;
+ 
+  }
+}

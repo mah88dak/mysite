@@ -1,0 +1,10 @@
+footer .social-links a {
+  width: 40px;
+  aspect-ratio: 1;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid;
+  color: var(--primaryColor);
+  border-radius: 50%;
+}

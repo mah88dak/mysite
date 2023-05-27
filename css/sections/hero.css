@@ -1,0 +1,44 @@
+main .container {
+  min-height: 85vh;
+  background-image: url(../../img/man.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+main .container .content{
+ width: 700px;
+}
+main .social-links a {
+  color: var(--primaryColor);
+  width: 30px;
+  border: 1px solid;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  display: grid !important;
+  place-content: center;
+
+}
+
+
+
+
+@media (max-width: 992px) {
+  main .numbers {
+    width: 90% !important;
+  }
+  main .container {
+    background-image: none;
+
+  }
+
+  main .container .content {
+    width: 100%;
+    /* background-color: #eeeeeebd; */
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,13 @@
+header .navbar-brand img {
+  width: 90px;
+}
+header .nav-link  {
+  color: var(--block50Color);
+  text-align: center !important;
+}
+
+header .navbar-nav .nav-link.active {
+  color:var(--primaryColor) !important;
+}
+
+

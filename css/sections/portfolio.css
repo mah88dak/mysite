@@ -1,0 +1,27 @@
+.portfolio .imgbox{
+  position: relative;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.portfolio .imgbox:hover .img-content{
+  transform: translateY(0);
+
+}
+.portfolio .imgbox img{
+  width: 100%;
+}
+.portfolio .imgbox .img-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--primaryLight80Color);
+  color: var(--whiteColor);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 10px;
+  transform: translateY(-100%);
+  transition: 0.5s ease-in-out;
+}
